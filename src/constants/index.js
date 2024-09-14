@@ -56,7 +56,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Valsad, Gujarat - India",
+  address: "Mumbai - India",
   phoneNo: "+91 84011-43043 ",
   email: "mihilekhankar@gmail.com",
 };
