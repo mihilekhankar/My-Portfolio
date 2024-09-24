@@ -13,8 +13,8 @@ const container = (delay) => ({
 
 const Hero = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4 lg:mb-35 px-5">
-            <div className="flex flex-wrap">
+        <div className="border-b border-neutral-900 pb-4 lg:mb-35 px-5 mt-28">
+            <div className="flex flex-wrap justify-center">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col item-center lg:item-start">
                         <motion.h1
@@ -31,7 +31,7 @@ const Hero = () => {
                             variants={container(1)}
                             initial="hidden"
                             animate="visible"
-                            className="my-2 max-w-xl py-6 font-light tracking-tighter">
+                            className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify">
                             {HERO_CONTENT}
                         </motion.p>
                     </div>

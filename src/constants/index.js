@@ -24,8 +24,10 @@ export const EXPERIENCES = [
   },
 ];
 
+
 export const PROJECTS = [
   {
+    url: "https://github.com/mihilekhankar/Xcalibur-AI",
     title: "Xcalibur AI",
     image: project1,
     description:
@@ -33,6 +35,7 @@ export const PROJECTS = [
     technologies: ["ReactJS", "JavaScript", "HTML", "CSS", "Bootstrap"],
   },
   {
+    url: "https://github.com/mihilekhankar/My-Portfolio",
     title: "My Portfolio",
     image: project2,
     description:
@@ -40,6 +43,7 @@ export const PROJECTS = [
     technologies: ["ReactJS", "JavaScript", "Tailwind CSS"],
   },
   {
+    url: "https://github.com/nullbyte01/Image-converter",
     title: "Image Converter",
     image: project3,
     description:
@@ -47,6 +51,7 @@ export const PROJECTS = [
     technologies: ["C#", "Blazor", "WebAssembly", "ffmpeg"],
   },
   {
+    url: "https://github.com/mihilekhankar/Snake-js",
     title: "Snake Game",
     image: project4,
     description:
