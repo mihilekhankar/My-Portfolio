@@ -1,8 +1,24 @@
-# React + Vite
+Welcome to the repository for **My Portfolio**, a personal website designed to showcase my skills, projects, and professional journey as a developer and QA professional. This portfolio site is built using modern web technologies to provide a clean, responsive, and user-friendly experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+**About the Project**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a professional portfolio website designed to highlight my expertise in software development and quality assurance. It includes detailed information about my experience, projects, and technical skills. The site is optimized for performance, accessibility, and responsiveness, ensuring a seamless experience across devices.
+
+
+**Features**
+- Responsive Design: Adapts to all screen sizes, from desktop to mobile.
+- Project Showcase: Displays the projects I have worked on with descriptions, technologies used, and links to GitHub repos or live demos.
+- Skills Section: Lists my core technical skills and proficiencies.
+- Contact Form: Enables visitors to contact me directly via email.
+
+
+**Technologies Used**
+- ReactJS
+- JavaScript
+- TailwindCSS
+
+**Deployment:**
+GitHub Pages and Vercel
+
+[Click Here](https://mihil-portfolio.vercel.app/) to visit
