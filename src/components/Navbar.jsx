@@ -4,12 +4,19 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 
 
+const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+};
+
 const Navbar = () => {
   return (
-    <div className="backdrop-blur-sm bg-[black]/40 shadow-xl rounded-b-3xl flex w-full justify-center fixed top-0 my-2 z-50 mt-0 h-15">
+    <div className="backdrop-blur-sm bg-[black]/40 shadow-xl rounded-b-3xl   flex w-full justify-center fixed top-0 my-2 z-50 mt-0 h-15">
 
       <div className="flex items-center justify-between w-4/5">
-        <div className="flex flex-shrink-0 items-center">
+        <div className="flex flex-shrink-0 items-center cursor-pointer" onClick={scrollToTop}>
           <img className="mx-2 w-10 select-none" src={logo} alt="logo" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
